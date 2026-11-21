@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: shiromaru-gas-lab
+    runtime: static
+    buildCommand: echo "Static website ready"
+    staticPublishPath: ./public
